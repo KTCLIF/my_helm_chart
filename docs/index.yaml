@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  member-app:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-06-29T11:19:44.744458066+09:00"
+    description: fastapi member application
+    digest: 0a90fdf1d42c3761bb9631035126c7efe6e0bd8f6ec6af654b1f41d2afee3531
+    name: member-app
+    type: application
+    urls:
+    - https://KTCLIF.github.io/my_helm_chart.git/member-app-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-06-29T11:19:44.744280091+09:00"
