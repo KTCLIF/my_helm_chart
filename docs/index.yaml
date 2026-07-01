@@ -1,14 +1,25 @@
 apiVersion: v1
 entries:
+  market-app:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-07-01T10:13:20.915299181+09:00"
+    description: Market Application Helm Chart for Kubernetes
+    digest: acdbbf7e2ab646e27d962f88268dc056746d99abd5efb81736348fadb563a2f5
+    name: market-app
+    type: application
+    urls:
+    - https://KTCLIF.github.io/my_helm_chart/market-app-0.1.0.tgz
+    version: 0.1.0
   member-app:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2026-06-29T11:43:12.349541139+09:00"
+    created: "2026-07-01T10:13:20.915416906+09:00"
     description: fastapi member application
     digest: 3f84793093897e373fee09490fe14d9176e65b3bd16b5fd4b47a4925e19e573b
     name: member-app
     type: application
     urls:
-    - https://KTCLIF.github.io/my_helm_chart.git/member-app-0.1.0.tgz
+    - https://KTCLIF.github.io/my_helm_chart/member-app-0.1.0.tgz
     version: 0.1.0
-generated: "2026-06-29T11:43:12.349342675+09:00"
+generated: "2026-07-01T10:13:20.915034583+09:00"
